@@ -11,6 +11,7 @@
    2. Add Html
    3. Add css
 5. List foods
+
    1. Create food model
    2. create data.ts
       1. Add sample foods
@@ -39,6 +40,24 @@
       5. Show tag result in home component
       6. Generate tags component
          1. Add to home component
+         2. Add ts
+         3. Add html
+   8. Food page
+
+      1. Add method to food service
+      2. Generate food page component
+         1. Add route
+         2. Add ts
+         3. Add html
+         4. Add css
+
+   9. Cart Page
+      1. Create cartItem model
+      2. Create cart Model
+      3. Generate cart Service
+      4. Add to cart Button in food page
+      5. Generate cart Page component
+         1. add route
          2. Add ts
          3. Add html
          4. Add css
