@@ -1,3 +1,4 @@
+//tscongig.file
 {
   "compilerOptions": {
     "module": "CommonJS",

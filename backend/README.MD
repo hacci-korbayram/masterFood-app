@@ -1,6 +1,6 @@
 11. Connect to Backend
     1. Create backend folder
-    2. npm init
+    2. Npm init
     3. npm intstall typescript
     4. Create .gitignore
     5. create tsconfig.json
