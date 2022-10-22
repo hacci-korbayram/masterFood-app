@@ -11,7 +11,7 @@ app.use(
     origin: ["http://localhost:4200"],
   })
 );
-
+//frontend food servis look at
 app.get("/api/foods", (req, res) => {
   res.send(sample_foods);
 });
