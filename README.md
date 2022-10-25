@@ -72,3 +72,15 @@
        1. Home Page
        2. Food Page
        3. Cart Page
+   13. Login Page
+       1. Generate Component
+       1. Add to routes
+       1. Add ts
+       1. Add html
+       1. Import Reactive Forms Module
+       1. Add Css
+       1. Add Login Api
+       1. Use Json
+       1. Add jsonwebtoken
+       1. Test using Postman
+   14. part 2 ...
