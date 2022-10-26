@@ -83,4 +83,8 @@
        1. Use Json
        1. Add jsonwebtoken
        1. Test using Postman
-   14. part 2 ...
+   14. Generate user Service
+       1. generate user model
+       2. add user subject
+       3. add login method
+       4. add user urls
