@@ -1,19 +1,29 @@
-<div class="contianer">
+<div class="container">
   <div class="details">
     <app-title title="Login"></app-title>
 
     <form [formGroup]="loginForm" (ngSubmit)="submit()">
-      <div class="input-container">
-        <label>Email</label>
-        <div>
-          <input type="email" placeholder="Email" formControlName="email" />
-        </div>
-        <div class="error-list" *ngIf="fc.email.errors && isSubmitted">
-          <div *ngIf="fc.email.errors.required">Should not be empty</div>
-          <div *ngIf="fc.email.errors.email">Email is not correct</div>
-        </div>
-      </div>
-      <div class="input-container">
+      <!-- <input-container label="Email">
+        <input type="email" placeholder="Email" formControlName="email" />
+        <input-validation
+          [control]="fc.email"
+          [showErrorsWhen]="isSubmitted"
+        ></input-validation>
+      </input-container> -->
+      <text-input
+        [control]="fc.email"
+        [showErrorsWhen]="isSubmitted"
+        type="email"
+        label="Email"
+      ></text-input>
+      <text-input
+        [control]="fc.password"
+        [showErrorsWhen]="isSubmitted"
+        type="password"
+        label="password"
+      ></text-input>
+
+      <!-- <div class="input-container">
         <label>Password</label>
         <div>
           <input
@@ -26,10 +36,11 @@
           <div *ngIf="fc.password.errors.required">Should not be empty</div>
           <div *ngIf="fc.password.errors.password">Password is not correct</div>
         </div>
-      </div>
-      <div class="button">
+      </div> -->
+      <!-- <div class="button">
         <button type="submit">Login</button>
-      </div>
+      </div> -->
+      <default-button text="Login"></default-button>
     </form>
   </div>
 </div>
