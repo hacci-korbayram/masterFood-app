@@ -89,7 +89,28 @@
        3. add login method
        4. add user urls
    15. Make Components for login page
+
        1. Input Container
        2. Input Validation
        3. Text Input
        4. Default Button
+
+   16. Checkout page
+       1. create order model
+       2. create checkout page component
+       3. add to router
+       4. add user to user service
+       5. add cart to cart service
+       6. create order to car service
+       7. adding map to the checkout page
+       8. add leadlet npm package
+          1. add @types/leaflet
+          2. add css to angular.json
+       9. add adresslatlng to order model
+       10. create map component
+           1. add to checkout page
+           2. add ts
+              1. change app-map selector to map
+           3. add html
+           4. add css
+       11. add auth guard
