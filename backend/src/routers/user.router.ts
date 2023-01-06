@@ -78,7 +78,7 @@ const generateTokenResponse = (user: any) => {
 
 export default router;
 
-// const generateTokenReponse = (user: User) => {
+// const generateTokenResponse = (user: User) => {
 //   const token = jwt.sign(
 //     {
 //       id: user.id,

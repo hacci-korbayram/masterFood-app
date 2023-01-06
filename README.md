@@ -96,6 +96,7 @@
        4. Default Button
 
    16. Checkout page
+
        1. create order model
        2. create checkout page component
        3. add to router
@@ -114,3 +115,20 @@
            3. add html
            4. add css
        11. add auth guard
+       12. Save Order
+           1. Add order Model
+           2. add order status enum
+           3. add auth middleware
+           4. add order router
+              1. add create api
+           5. add order urls to urls.ts
+           6. add order service
+              1. add create method
+           7. add auth Interceptor
+
+   17. Payment Page
+       1. Generate Component
+       2. Add 'GetOrderForCurrentUser' Api
+       3. Add Order Service Method
+       4. Connect Component to service
+       5. Make the map component readonly
